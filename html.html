@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de baches en Tijuana</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+       <div class="logo">
+          <img src="imagen.png" alt="logo de la compania" class="logo-img">
+          <h2 class="nombre-empresa" >TIJUANA BACHES</h2>
+        </div>
+    </header>
+
+<div class="container">
+    <h1>Reportar baches en tijuana</h1>
+    <form id="reportForm">
+        
+        <label for="titulo">Título del Problema:</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="descripcion">Descripción del Problema:</label>
+        <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+        <label for="ubicacion">Ubicación del Problema:</label>
+        <input type="text" id="ubicacion" name="ubicacion" required>
+
+        <label for="correo">correo electronico:</LABEl>
+        <input type="text" id="correo" name="correo" required>
+
+        <label for="foto">Adjuntar Foto:</label>
+        <input type="file" id="foto" name="foto">
+
+        <button type="submit">Enviar Reporte</button>
+    </form>
+    <div id="status"></div>
+</div>
+
+<div class="map" >
+    <p>Blvd. Cucapah 20100-Sur, El Lago, 22210 Tijuana, B.C.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.9805724144526!2d-116.931495425259!3d32.49994839809567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9484801fb99d1%3A0x81e36a1304f96da2!2sCESUN%20Universidad!5e0!3m2!1ses-419!2smx!4v1709869225569!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>
+        <a href="mailto:jesus.vizcarramoreno@cesunbc.edu.mx">Click aqui para escribirnos un correo</a>
+    </p>
+</div>
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+
+            <h3>SERVICIOS</h3>
+            <ul>
+                <li><a href="#"> BACHES.</a></li>
+                <li><a href="#">INUNDACIONES</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>PAGINAS</h3>
+            <ul>
+                <li><a href="https://t-atiende.tijuana.gob.mx/#:~:text=tijuana.gob.mx-,072,solicitudes%20de%20servicio%20y%20tr%C3%A1mites."
+                    >MAS INFORMACION AQUI</a></li>
+                    <li><a href="https://www.facebook.com/BC.Gobierno">FACEBOOK:</a></li>
+
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>HORARIOS Y CONTACTOS</h3>
+            <ul>
+                <li><a href="#">8:30AM - 8:00PM</a></li>
+                <li><a href="">DENUNCIA AL 072</a></li>
+            </ul>
+        </div>
+    </div>
+<script src="java.js"></script>
+</body>
+</html>
+
